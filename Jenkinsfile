@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello world!"'
-                   'echo "my first jenkin project"'
+                sh   'echo "my first jenkin project"'
             }
         }
     }
